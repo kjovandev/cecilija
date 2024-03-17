@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+  font-family: 'Libre Bodoni', serif;
+  margin: 0;
+  padding: 0;
+}
+
+.imageAbout {
+  height: 70vh;
+  width: auto;
+}
+
+.imageDivAbout {
+  margin: 2rem;
+  height: auto;
+  width: auto;
+}
+
+.parallaxMainDivAbout {
+  font-family: 'Libre Bodoni', serif;
+  position: relative;
+  height: 100vh;
+  width: auto;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerContentAbout {
+  font-size: 5vw;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: auto;
+  border-radius: 10px;
+}
+
+.imgMainDivAbout {
+  width: 100%;
+  height: 100%;
+}
+
+.contentDivAbout {
+padding: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .parallaxMainDivAbout {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .headerContentAbout {
+    width: 80%;
+  }
+
+  .noImageDivAbout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: auto;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+  }
+
+  .noImageDivAboutLarge {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contentDivAbout {
+    max-width: 50vw;
+  }
+}
+
+.footer {
+  background-color: black;
+  padding: 2rem;
+  bottom: 0;
+  z-index: 400000;
+}
+
+.footer-col h5 {
+  font-weight: bold;
+  color: white;
+}
+
+.footer-col p,
+.footer-col a {
+  color: white;
+}

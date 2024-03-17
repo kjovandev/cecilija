@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,700&display=swap');
+
+body 
+{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.carouselDivHome 
+{
+  padding: 1rem;
+  margin: 1rem;
+  height: 400px;
+  width:"100%" 
+}
+
+.noImageDivHeaderHome
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3vw;
+  
+  font-weight: 700;
+}
+
+h1 
+{
+  line-height: 3rem;
+  
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+h2
+{
+  font-size: 3vw;
+  line-height: 3rem;
+  
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.first-rowH1Home 
+{
+  font-size: 20vw;
+}
+
+.second-rowH1Home
+{
+  font-size: 6vw;
+}
+
+.invertedTextHome
+{
+  color: white;
+  margin: 2vw;
+  font-size: 7vw;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.textPic3Home
+{
+  background-color:rgba(0, 0, 0, 0.8) ;
+}
+.textPic2Home
+{
+  color: white;
+  background-color:rgba(0, 0, 0, 0.8) ;
+}
+.textPic4Home
+{
+  color: white;
+  background-color:rgba(0, 0, 0, 0.8) ;
+}
+
+
+
+.parallaxMainDivHome
+ {
+  position: relative;
+  height: 100vh;
+  width: auto;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parallaxMainDivHome2,
+.parallaxMainDivHome3,
+.parallaxMainDivHome4,
+.parallaxMainDivHome5,
+.parallaxMainDivHome6
+{
+  position: relative;
+  height: 50vh;
+  width: auto;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+}
+
+.headerContentHome
+{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:auto;
+  width: auto;
+  border-radius: 10px;
+  padding: 1rem;
+  background: transparent;
+  backdrop-filter: blur(4px);
+}
+
+.textPic6Home
+{
+  color: black;
+}
+
+.ImgMainDivHome
+{
+  width: 100%;
+  height: 100%;
+}
+
+
+@media screen and (min-width: 768px) 
+{
+
+  .parallaxMainDivHome
+  {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .parallaxMainDivHome2,
+  .parallaxMainDivHome3,
+  .parallaxMainDivHome4,
+  .parallaxMainDivHome5,
+  .parallaxMainDivHome6
+  {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .parallaxMainDivHome2
+  {
+    justify-content: left;
+  }
+
+  .parallaxMainDivHome3
+  {
+    justify-content: right;
+  }
+
+  .parallaxMainDivHome4
+  {
+    justify-content: right;
+  }
+
+  .parallaxMainDivHome5
+  {
+    justify-content: right;
+  }
+
+  .parallaxMainDivHome6
+  {
+    justify-content: left;
+  }
+  
+  .textPic6Home
+  {
+    margin: 25vw;
+  }
+ 
+  .first-rowH1Home
+  {
+    font-size: 15vw;
+  }
+  .second-rowH1Home
+  {
+    font-size: 4vw;
+  }
+ 
+  .headerContentHome
+  {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    height: 24rem;
+    backdrop-filter: blur(3px);
+  }
+  .invertedTextHome
+{
+  font-size: 5vw;
+}
+}
+
+.noImageDivHome
+{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  z-index: 1;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.rollingContentHome
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+
+.footer
+{
+  background-color: black;
+  padding: 2rem;
+  bottom: 0;
+  z-index: 400000;
+}
+
+.footer-col h5
+{
+  font-weight: bold;
+  color: white;
+}
+
+.footer-col p,
+.footer-col a
+{
+  color: white;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+  font-family: 'Libre Bodoni', serif;
+  margin: 0;
+  padding: 0;
+}
+
+.imageAbout {
+  height: 70vh;
+  width: auto;
+}
+
+.imageDivAbout {
+  margin: 2rem;
+  height: auto;
+  width: auto;
+}
+
+.parallaxMainDivAbout {
+  font-family: 'Libre Bodoni', serif;
+  position: relative;
+  height: 100vh;
+  width: auto;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerContentAbout {
+  font-size: 5vw;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: auto;
+  border-radius: 10px;
+}
+
+.imgMainDivAbout {
+  width: 100%;
+  height: 100%;
+}
+
+.contentDivAbout {
+padding: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .parallaxMainDivAbout {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .headerContentAbout {
+    width: 80%;
+  }
+
+  .noImageDivAbout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: auto;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+  }
+
+  .noImageDivAboutLarge {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contentDivAbout {
+    max-width: 50vw;
+  }
+}
+
+.footer {
+  background-color: black;
+  padding: 2rem;
+  bottom: 0;
+  z-index: 400000;
+}
+
+.footer-col h5 {
+  font-weight: bold;
+  color: white;
+}
+
+.footer-col p,
+.footer-col a {
+  color: white;
+}
